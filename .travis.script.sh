@@ -1,7 +1,7 @@
 #!/bin/bash -xe
 
 DOCKER_ORG="nuvla"
-DOCKER_IMAGE="example-ubuntu"
+DOCKER_IMAGE="example-centos"
 DOCKER_TAG="latest"
 
 MANIFEST=${DOCKER_ORG}/${DOCKER_IMAGE}:${DOCKER_TAG}
