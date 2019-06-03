@@ -15,7 +15,22 @@ Architecture-specific tags:
  - `latest-amd64` ([Dockerfile](https://github.com/nuvla/example-centos/blob/master/Dockerfile))
  - `latest-arm64` ([Dockerfile](https://github.com/nuvla/example-centos/blob/master/Dockerfile))
 
-## How to use this image
+
+## How to register this image in a Nuvla installation
+
+To register this container on your Nuvla on-premise installation, clone the sources
+from the
+[nuvla/example-centos](https://github.com/nuvla/example-centos)
+GitHub, then run the following commands, after having exported the required environment variables:
+
+```sh
+pip install nuvla-api
+python add-module.py
+```
+
+You should now see the module component in the App Store called *CentOS SSHD*.
+
+## How to use this image locally
 
 To run the container:
 
